@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">йо-йо мазафака</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="message">
+        <item>Tvoja mama takaja tolstaja, chto my sejchas nahodimsja v nej!</item>
+        <item>Tvoja mama takaja tolstaja, chto ona plavala v okene i vse prinimali ee za novyj kontinet!</item>
+        <item>Tvoja mama takaja tolstaja, chto vse orut "Osvobodite Villi!", kogda ona lezhit na pljazhe!</item>
+        <item>Tvoja mama takaja tolstaja, chto kogda ty na nee zabiraesh\'sja u tebja davit v ushah!</item>
+        <item>Tvoja mama takaja tolstaja, chto kogda ona zanimaetsja seksom ej nuzhno davaj napravlenija!</item>
+        <item>Tvoja mama takaja tolstaja, chto idet v restoran, smotrit na menju i zakazyvaet.. VSE!</item>
+        <item>Tvoja mama takaja tolstaja, chto juldi orut "Taksi!", kogda ona nadevaet zheltuju vetrovku!</item>
+        <item>Tvoja mama takaja tolstaja, chto krasit guby rolikom!</item>
+        <item>Tvoja mama takaja tolstaja, chto snesla s soboj ves\' most, kogda prygala bandzhi!</item>
+        <item>Tvoja mama takaja tolstaja, chto kogda ona vstaet na vesy, migaet "Po-odnomu, pozhalujsta!"</item>
+        <item>Tvoja mama takaja tolstaja, chto kogda ona saditsja tebe na lico, ty ne slyshish\' magnitofon!</item>
+        <item>Tvoja mama takaja tolstaja, chto u nee est\' svoj indeks!</item>
+        <item>Tvoja mama takaja tolstaja, chto na granice podozrevajut ee v nelegal\'nom provezenii Volvo!</item>
+        <item>Tvoja mama takaja tolstaja, chto NASA zapustili sputnik vokrug nee!</item>
+        <item>Tvoja mama takaja tolstaja, chto ee nuzhno katat\' po-polu i iskat\' vlazhnoe pjatno, chtoby ee ottrahat\'!</item>
+        <item>Tvoja mama takaja tolstaja, chto prosypaetsja po-chastjam!</item>
+        <item>Tvoja mama takaja tolstaja, chto ljudi pytajustsja na nej prokatit\'sja, kogda ona idet v Disney Land!</item>
+        <item>Tvoja mama takaja tolstaja, chto zakryvaet vsem solnce, kogda lezhit na pljazhe!</item>
+        <item>Tvoja mama takaja tolstaja, chto sozdala Velikij Kan\'on, kogda nechajanno upala</item>
+        <item>Tvoja mama takaja tolstaja, chto ej nuzhno pokupat\' dva proezdnyh bileta!</item>
+        <item>Tvoja mama takaja tolstaja, chto u menja konchilsja benzin pri popytke ee ob#ehat\'!</item>
+        <item>Tvoja mama takaja tolstaja, chto ee podkarmlivajut vse zhivotnye v zooparke!</item>
+        <item>Tvoja mama takaja tolstaja, chto ona nahoditsja v dvuh raznym chasovyh pojasah!</item>
+        <item>Tvoja mama takaja tolstaja, chto ej nuzhno smazyvat\' dvernoj projom, pered tem kak vtisnut\'sja v dom!</item>
+        <item>Tvoja mama takaja tolstaja, chto ona ne mozhet zavjazat\' sebe shnurki!</item>
+        <item>Tvoja mama takaja tolstaja, chto srabatyvajut vse signalizacii, kogda ona prohodit mimo!</item>
+        <item>Tvoja mama takaja tolstaja, chto grinpis pytalis\' stolknut\' ee obratno v vodu, kogda ona lezhala na pljazhe!</item>
+        <item>Tvoja mama takaja tolstaja, chto edinstvennaja ee fotografija — sputnikovaja!</item>
+        <item>Tvoja mama takaja tolstaja, chto ispol\'zuet matrasy vmesto tamponov!</item>
+        <item>Tvoja mama takaja tolstaja, chto ee ispol\'zujut dlja promyvki tunnelej!</item>
+        <item>Tvoja mama takaja tupaja, chto ej ponadobilos\' 2 chasa prosmotret\' 60 minut!</item>
+        <item>Tvoja mama takaja tupaja, chto pobezhala so shvabroj, kogda ty skazal, chto na na ulice mokro!</item>
+        <item>Tvoja mama takaja tupaja, chto nuzhno kopat\' pered tem kak najti ee IQ!</item>
+        <item>Tvoja mama takaja tupaja, chto umerla s golodu, zastrjav v supermarkete!</item>
+        <item>Tvoja mama takaja tupaja, chto sprashivaet kakoj nomer u 911!</item>
+        <item>Tvoja mama takaja tupaja, chto Bivis i Bathed vygljadjat rjadom s nej professorami!</item>
+        <item>Tvoja mama takaja tupaja, chto sidit na televizore i smotrit na divan!</item>
+        <item>Tvoja mama takaja tupaja, chto kupila video-kameru zapisyvat\' doma TV-serialy!</item>
+        <item>Tvoja mama takaja urodlivaja, chto tykaet svoe lico v testo, chtoby sdelat\' pchen\'e v vide mordy-gorilly!</item>
+        <item>Tvoja mama takaja urodlivaja, chto ee vzjali v glavnye roli dlja fil\'ma ob obez\'janah!</item>
+        <item>Tvoja mama takaja urodlivaja, chto ej ne ponadobilos\' kostjuma v fil\'me Zvezdnye Vojny!</item>
+        <item>Tvoja mama takaja urodlivaja, chto v banke vykljuchajut vse kamery, kogda ona zahodit!</item>
+        <item>Tvoja mama takaja urodlivaja, chto ej nuzhno op#janjat\' rebenka chtoby ne oral kazhdyj raz, kogda ona hochet ego pokormit\' grud\'ju!</item>
+        <item>Tvoja mama takaja urodlivaja, chto perenesli prazdnik Halloween na ee den\' rozhdenija!</item>
+        <item>Tvoja mama takaja urodlivaja, chto stoit ej posmotret\' v okno, kak ee srazu arestovyvajut!</item>
+        <item>Tvoja mama takaja urodlivaja, chto vsem ee zhalko na pljazhe, potomu chto prinimajut ee za vybroshennogo iz morja kita!</item>
+        <item>Tvoja mama takaja urodlivaja, chto ona pugaet tarakanov!</item>
+        <item>Tvoja mama takaja urodlivaja, chto tvoj otec beret ee s soboj na rabotu, tol\'ko chtoby ne celovat\' na proshhanie!</item>
+        <item>Tvoja mama takaja staraja, chto sama vkljuchala vykljuchatel\', kogda B-g skazal: "Da budet svet"!</item>
+        <item>Tvoja mama takaja staraja, chto eshhe ne bylo urokov istorii, kogda ona hodila v shkolu!</item>
+        <item>Tvoja mama takaja staraja, chto dolzhna Iisusu 3 baksa!</item>
+        <item>Tvoja mama takaja staraja, chto imeet fotografiju Moiseja v al\'bome!</item>
+        <item>Tvoja mama takaja staraja, chto uspela proguljat\'sja s dinozavrami!</item>
+        <item>Tvoja mama takaja staraja, chto ee data rozhdenija napisana rimskimi ciframi!</item>
+        <item>Tvoja mama takaja staraja, chto sidela za partoj s Iisusom v 3-em klasse!</item>
+        <item>Tvoja mama takaja nizkaja, chto v passporte vidno ee nogi!</item>
+        <item>Tvoja mama takaja nizkaja, chto mozhet delat\' sal\'to pod krovat\'ju!</item>
+        <item>Tvoja mama pohozha na avtobus, 50 kopeek i ona gotova "proehat\'sja"!</item>
+        <item>Tvoja mama pohozha na pole dlja gol\'fa, vsem poluchaetsja popast\' v dyrku!</item>
+        <item>Tvoja mama pohozha na Mersedes - "O, kakoe chuvstvo!"</item>
+        <item>Tvoja mama pohozha na kitajskuju edu - sladkaja i deshevaja!</item>
+        <item>Tvoja mama pohozha na pylesos - kak zasoset!</item>
+        <item>Tvoja mama takaja volosataja, chto BigFut sfotografiroval ee na pamjat\'!</item>
+        <item>Tvoja mama takaja lysaja, chto mozhno videt\' o chem ona dumaet!</item>
+        <item>u tvoej mamy takaja bol\'shaja golova, chto ee vidno na radare!</item>
+        <item>u tvoej mamy takaja bol\'shaja golova, chto ona ne vlazit v svoi futbolki!</item>
+        <item>u tvoej mamy takaja malen\'kaja golova, chto ona ispol\'zuet paketik chaja vmesto podushki!</item>
+        <item>u tvoej mamy takaja malen\'kaja golova, chto ona umerla kogda ej pytalis\' sdelat\' dyru v uhe!</item>
+        <item>u tvoej mamym takoj bol\'shoj razmer nogi, chto ej nuzhno prikrepljat\' na obuv\' nomera!</item>
+        <item>Tvoej mame ponadobilos\' 10 raz sdat\' na prava, potomu chto ona ne mogla privyknut\' k perednemu sideniju!</item>
+        <item>Esli by moja sobaka vygljadela kak tvoja mama, ja by postrig ej zadnicu i zastavil ee hodit\' zadom napered!</item>
+    </string-array>
+
+</resources>
