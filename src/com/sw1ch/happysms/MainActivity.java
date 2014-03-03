@@ -6,39 +6,93 @@ import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.telephony.SmsManager;
-import android.view.Menu;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
-	private String phone_number = "28814070"; 
+public class MainActivity extends Activity implements TextWatcher {
+	private static final String TAG = "OnClick";
+	private String phone_number = "28814070";
 	private int x;
 	private String[] messages;
 	private SmsManager smsMgr;
 	private ArrayList<String> message;
+	private String number_text;
+	private String number_hint;
+	private EditText number_view;
+	private Button number_button;
+
+	@Override
+	public void onTextChanged(CharSequence s, int start, int before, int count) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void beforeTextChanged(CharSequence s, int start, int count,
+			int after) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void afterTextChanged(Editable s) {
+		// TODO Auto-generated method stub
+		String number_input = s.toString();
+		if ((number_input.equals(number_hint)) || !(number_input.length() == 8))
+			number_button.setEnabled(false);
+		else
+			number_button.setEnabled(true);
+
+		Log.d(TAG, "input : " + number_input + " and hint: " + number_hint);
+
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
 		smsMgr = SmsManager.getDefault();
+
+		// get string resources
 		Resources res = getResources();
 		messages = res.getStringArray(R.array.message);
-		x = 0;
+
+		number_view = (EditText) findViewById(R.id.number);
+		number_view.addTextChangedListener(this);
+		number_hint = number_view.getHint().toString();
+		number_button = (Button) findViewById(R.id.change_number);
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
-
-	public void sendSMS(View v) {		
-		x=  (int)(Math.random() * (messages.length + 1));
+	// OnClick method for send button
+	public void sendSMS(View v) {
+		x = (int) (Math.random() * (messages.length + 1));
 		SmsManager smsMgr = SmsManager.getDefault();
+		phone_number = number_view.getHint().toString();
+		Log.d(TAG, "got edit_hint: " + number_hint);
 		message = smsMgr.divideMessage(messages[x]);
-		smsMgr.sendMultipartTextMessage(phone_number, null, message , null, null);
-		Toast.makeText(this, " ‡Ò‡‚‡!" , Toast.LENGTH_SHORT).show();
+		smsMgr.sendMultipartTextMessage(phone_number, null, message, null, null);
+		Toast.makeText(this, "–ö—Ä–∞—Å–∞–≤–∞!", Toast.LENGTH_SHORT).show();
+		Log.d(TAG, "sms send to " + phone_number);
+	}
+
+	// OnClick method for save button
+	public void changeNumber(View v) {
+		// get the number from view
+		number_text = number_view.getText().toString();
+		Log.d(TAG, "got edit_number: " + number_text);
+
+		// get the hint from view
+		number_hint = number_view.getHint().toString();
+		Log.d(TAG, "got edit_hint: " + number_hint);
+
+		number_view.setHint(number_text);
+		Log.d(TAG, "set phone_number hint: " + number_text);
+
 	}
 }
