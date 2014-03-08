@@ -13,17 +13,16 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Этот номер уже введен"
-        android:textSize="14sp" 
-        android:visibility="invisible"
-         />
-    
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
     <LinearLayout
         android:id="@+id/edit_number_l"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_alignParentTop="true"
         android:layout_below="@id/info"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal" >
 
         <EditText
@@ -54,17 +53,25 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/sendSMS"
+        android:id="@+id/MotherSMS"
         style="@style/button_text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/info"
         android:layout_below="@id/edit_number_l"
         android:background="@drawable/red_buton"
-        android:onClick="sendSMS"
-        android:text="Нажми на чертову кнопку" />
+        android:onClick="sendMothSMS"
+        android:text="Мамы" />
 
-
-
+    <Button
+        android:id="@+id/RacistSMS"
+        style="@style/button_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/info"
+        android:layout_below="@id/MotherSMS"
+        android:background="@drawable/blue_buton"
+        android:onClick="sendRacSMS"
+        android:text="Расизм" />
 
 </RelativeLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">йо-йо мазафака</string>
+    <string name="app_name">HappySMS</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
-    <string-array name="message">
+    <string-array name="mother_message">
         <item>Tvoja mama takaja tolstaja, chto my sejchas nahodimsja v nej!</item>
         <item>Tvoja mama takaja tolstaja, chto ona plavala v okene i vse prinimali ee za novyj kontinet!</item>
         <item>Tvoja mama takaja tolstaja, chto vse orut "Osvobodite Villi!", kogda ona lezhit na pljazhe!</item>
@@ -78,6 +78,63 @@
         <item>Tvoej mame ponadobilos\' 10 raz sdat\' na prava, potomu chto ona ne mogla privyknut\' k perednemu sideniju!</item>
         <item>Esli by moja sobaka vygljadela kak tvoja mama, ja by postrig ej zadnicu i zastavil ee hodit\' zadom napered!</item>
     </string-array>
-    <string name="current_number">28814070</string>
+    <string-array name="racist_message">
+        <item>Chto nado sdelat\', esli vam navstrechu bezhit okrovavlennyj negr?Perezarjadit\'. </item>
+        <item>Pochemu negr, kogda edet v mashine, zakryvaet vse okna? On dumaet, chto vonjaet snaruzhi. </item>
+        <item>Chto nado skazat\' negru v uniforme? Mne, pozhalujsta, bigmak i kolu. </item>
+        <item>Kakie u negra est\' tri belyh veshhi? Glaza, zuby i hozjain. </item>
+        <item>V chjom raznica mezhdu negrom i apel\'sinom? Kogda apel\'sin snimajut s dereva - on eshhjo zhivoj. </item>
+        <item>V chjom raznica mezhdu evrejami i bojskautami? Bojskauty vozvrashhajutsja iz svoih lagerej. </item>
+        <item>Kak zastavit\' negra stradat\' ot goloda? Sprjatat\' talony na edu pod mylo. </item>
+        <item>Kak napugat\' negra? Vzjat\' ego s soboj na aukcion. </item>
+        <item>V mashine sidjat negr i meksikanec. Kto za ruljom? Kop. </item>
+        <item>Negr i meksikanec padajut s neboskrjoba. Kto upadjot pervym? Kakaja raznica? </item>
+        <item>Chto vy skazhete, uvidev negra, po sheju zakatannogo v beton? Malo betona. </item>
+        <item>Chto takoe negr? Dokazatel\'stvo togo, chto skunsy ebut obez\'jan. </item>
+        <item>Pochemu v garleme tak mnogo derev\'ev? Obshhestvennyj transport </item>
+        <item>Kak nazyvaetsja odin belyj v okruzhenii tysjachi negrov? Nadsmotrshhik. </item>
+        <item>Kak uznat\', chto u negra nedavno byl seks? Ego glaza vsjo eshhjo krasnye ot percovogo balonchika. </item>
+        <item>Pochemu, kogda kakie-libo pribory ne rabotajut - po nim b\'jut? S rabami jeto srabatyvalo. </item>
+        <item>Kak nazyvaetsja negr na velosipede? Vor. </item>
+        <item>Chto nado skazat\' negru v zale suda? Podsudimyj, vstan\'te! </item>
+        <item>Pochemu v N\'ju Jorke tak mnogo negrov, a v Kalifornii - zemljatrjasenij? Kalifornija vybirala pervoj.</item>
+        <item>Negr i meksikanec padajut s dereva. Kto upadjot na zemljupervym? Meksikanec. Negr ne doletit - emu pomeshaet verjovka. </item>
+        <item>Kak chjornaja zhenshhina boretsja s prestupnost\'ju? Delaet abort. </item>
+        <item>Kakie dva samyh slozhnyh goda v zhizni negra? Pervyj klass. </item>
+        <item>Kak nazyvaetsja negr v universitete? Uborshhik. </item>
+        <item>Chto nado brosit\' tonushhemu negru? Ego sem\'ju. </item>
+        <item>Ja ochen\' ljublju negrov. U menja dazhe bylo neskol\'ko horoshih druzej sredi nih...Jeto poka otec ih ne prodal. </item>
+        <item>Kak by vy nazvali negra na lune? Problema. Kak by vy nazvali sto negrov na lune? Problema. Kak by vy nazvali vseh negrov na lune? Reshenie problemy. </item>
+        <item>V chem raznica mezhdu evreem i piccoj? Picca ne krichit kogda ee zasovyvajut v duhovku. </item>
+        <item>Pochemu akuly ne edjat negrov? Potomu chto oni schitajut chto jeto kitovoe der\'mo. </item>
+        <item>Kak sdelat\' tak chto by negr perestal tonut\'? Nado prosto ubrat\' nogu s ego golovy. </item>
+        <item>Kak snjat\' negra s dereva? Pererezat\' verevku. </item>
+        <item>Zachem negry vonjajut? Chto by dazhe slepye mogli ih nenavidet\' </item>
+        <item>Kak vy nazovete 50 negrov na dne okeana? Horoshee nachalo. </item>
+        <item>Kakim obrazom byl priduman brejk-dans? Negr pytalsja ukrast\' dekorativnye kolpaki s dvizhushhegosja avtomobilja. </item>
+        <item>Kakaja raznica mezhdu sbitoj sobakoj i sbitym negrom? Pered sobakoj viden tormoznoj put\'. </item>
+        <item>Pochemu shimpanze vsegda hmurjatsja? Potomu chto oni znajut chto cherez million let oni stanut negrami </item>
+        <item>Kak umestit\' 10000 evreev v Daewoo Matiz? Ochen\' prosto! - v pepel\'nicu. </item>
+        <item>V chem raznica mezhdu negrom i lukom? Kogda rezhesh\' luk, na glazah vystupajutslezy. </item>
+        <item>Chto schitaetsja horoshim povedeniem v garlemskoj shkole? Podnjataja ruka peredvystrelom v uchitelja. </item>
+        <item>Chto ispol\'zujut bednye niggerskie deti vmesto plastilina? Svezhee sobach\'e der\'mo. </item>
+        <item>Kak zastavit\' chernogo rebenka prinjat\' dush? Otkryt\' pozharnyj kran i nachat\'prodavat\' narkotiki s toj storony. </item>
+        <item>Pochemu vo V\'etname pomerlo stol\'ko niggerov? Kogda serzhant krichal "Getdown", oni vse vskakivali i nachinali tancevat\'. </item>
+        <item>Chto poluchil chernyj rebenok na Rozhdestvo? Moj motocikl. </item>
+        <item>Pochemu negry ne prazdnujut den\' Blagodarenija? Potomu chto "Kentukkijskiezharenye cypljata" po prazdnikam ne rabotajut. </item>
+        <item>Chto govorjat negry, gotovjas\' k zanjatiju ljubov\'ju? "Suka, esli ty vskriknesh\',ja tebja prikonchu!" </item>
+        <item>Kak ostanovit\' pjat\' negrov, nasilujushhih beluju zhenshhinu? Kinut\' im basketbol\'nyjmjach. </item>
+        <item>Chemu uchat v garlemskoj shkole voditelej v pervuju ochered\'? Kak otkryt\' dver\'mashiny s pomoshh\'ju veshalki dlja odezhdy. </item>
+        <item>Pochemu v Garleme net pesochnic? Koshki vse vremja pypytajutsja zakopat\' mertvyh chernyh detej. </item>
+        <item>Pochemu stol\'ko negrov pereezzhaet v Detrojt? Oni uslyshali, chto tam net raboty. </item>
+        <item>Chto vytatyipovano y negrov na vnytpennih chastjah gyb? Hakacheno pod davleniem 50atm. </item>
+        <item>Zachem negry nosjat tyfli na vysokom kablyke? Chtoby kogti ne capapali zemlju. </item>
+        <item>Kakaja paznica mezhdy stapoj chernoj mamashej i slonom? 20 fyntov. </item>
+        <item>Chto govopit 13-letnjaja chernaja devochka, zanimajas\' seksom? Slez\' s menja, papa, typomnesh\' moi sigapety! </item>
+        <item>Pochemy y negra vsegda mysli o sekse? Potomy chto y nego na golove lobkovyevolosy. </item>
+        <item>Kak nazvat\' niggepa s IQ 15? Odapennyj. A s IQ 150? Plemja.</item>
+    </string-array>
+
+    <string name="current_number">28814070</string>
 
 </resources>
